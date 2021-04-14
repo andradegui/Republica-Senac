@@ -4,26 +4,78 @@
     <meta charset="UTF-8" />
     <title>República Senac - Home</title>
 
-    <link rel="shortcut icon" href="/imagens/logo.png">
+    <link rel="shortcut icon" href="/imagens/logo.png" />
     <link rel="stylesheet" href="/css/index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
   <body>
-      <header>
-          <nav>
-            <img src="/imagens/logo-header.png" id="logo">
+    <header>
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa fa-bars"></i>
+        </label>
+        <img src="/imagens/logo-header.png" id="logo" />
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="">Sobre</a></li>
+          <li><a href="">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
 
-              <ul>
-                  <li><a href="/index.html">Home</a></li>
-                  <li><a href="">Sobre</a></li>
-                  <li><a href="">Contato</a></li>
-              </ul>
-          </nav>
-      </header>
+    <main>
+      <section class="container">
+        <h1>República Senac Santo Amaro</h1>
 
-      <main>
-          <section>
+        <img src="/imagens/senac-entrada.png" id="entrada-senac" />
 
-          </section>
-      </main>
+        <h2>
+          Você que é “Senacano”, chegou sua hora de morar a menos de 1 km do
+          Campus Senac Santo Amaro!
+        </h2>
+      </section>
+
+      <!-- section de texto -->
+      <section class="container">
+        <p>
+          Está localizado numa área de 154 mil metros quadrados, em
+          <strong>Santo Amaro, na região sul da cidade de São Paulo</strong>.
+          Conta com prédios modernos, horizontalmente distribuídos em meio a um
+          parque com muito verde e a universidade internamente nas suas
+          dependências.
+        </p>
+
+        <p>
+          O empreendimento conta com 150 apartamentos de 42 metros quadrados,
+          com o custo mensal do aluguel é de
+          <strong
+            >$550,00, o apartamento mobiliado (cama, armários, fogão, geladeira
+            e máquina de lavar) e internet e água estão inclusas no
+            valor.</strong
+          >
+        </p>
+      </section>
+    </main>
+
+    <footer id="rodape">
+      <address class="endereco">
+        Av. Engenheiro Eusébio Stevaux, 823 <br> 
+        Santo Amaro, São Paulo - SP <br>
+        CEP: 04696-000
+      </address>
+      <div class="endereco">
+        <span>Telefone:</span>
+        <a  href="tel: +55115682-7300" >(11) 5682-7300</a>
+        <span class="quebra-linha"></span>
+        <span>E-mail:</span>
+        <a  href="mailto:universitariosantoamaro@sp.senac.br" tabindex="0">universitariosantoamaro@sp.senac.br</a>
+      </div>
+    </footer>
   </body>
 </html>
