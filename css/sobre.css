@@ -1,0 +1,48 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+h1{
+    font-size:1.5em;
+}
+
+.arredonda-bordas{
+    border-radius: 10px;
+}
+
+.centralizar{
+    display: block;
+    padding-left: 110px;
+}
+
+
+.d-flex {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.flex-2-column{
+    width: 50%;
+    flex-grow: 1;
+}
+
+h2{
+    color: #004b8d;
+  text-align: center;
+  font-size: 20px;
+}
+
+#texto-centro-esportivo{
+    padding-right: 50px;
+}
+
+.w-100{
+    width: 100%;
+}
+
+@media (max-width: 852px) {
+    #pista-quadras{
+      width: 100%;
+    }
+}
