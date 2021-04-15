@@ -1,0 +1,37 @@
+form label {
+    display: block;
+    margin: 10px 10px;
+}
+
+form input, form textarea {
+    display: block;
+    padding:10px;
+    width: 100%;
+}
+
+form input[type=submit]{
+    width: 30%;
+    min-width: 300px;
+    margin: 10px auto;
+    background-color: green;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover{
+    background-color: darkgreen;
+}
+
+
+@media (max-width: 858px) {
+    
+    #rodape{
+        background: #bebebe;
+        height: 100%;
+        text-align: center;
+    }
+}
