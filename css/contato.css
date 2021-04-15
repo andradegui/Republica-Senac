@@ -26,12 +26,21 @@ form input[type=submit]:hover{
     background-color: darkgreen;
 }
 
+.espaco{
+    margin-top: 30px;
+}
 
-@media (max-width: 858px) {
-    
-    #rodape{
-        background: #bebebe;
-        height: 100%;
-        text-align: center;
-    }
+.background {
+    background: #bebebe;
+    margin-top: 50px;
+}
+
+.d-flex {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.flex-2-column{
+    display: flex;
+    border-radius:20px;
 }
