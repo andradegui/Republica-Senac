@@ -11,20 +11,32 @@ h1{
     border-radius: 10px;
 }
 
-.centralizar{
-    display: block;
-    padding-left: 110px;
-}
-
-
 .d-flex {
     display:flex;
     flex-wrap: wrap;
 }
 
+.centralizar{
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
+}
+
 .flex-2-column{
-    width: 50%;
-    flex-grow: 1;
+    
+    display: flex;
+    border-radius:20px;
+}
+
+.w-100{
+    width: 100%;
+}
+
+#pista-quadras{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 20px;
 }
 
 h2{
@@ -33,16 +45,25 @@ h2{
   font-size: 20px;
 }
 
-#texto-centro-esportivo{
-    padding-right: 50px;
+.arredonda{
+    border-radius: 20px;
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
-.w-100{
-    width: 100%;
+.endereco {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    vertical-align: top;
 }
 
-@media (max-width: 852px) {
+@media (max-width: 858px) {
     #pista-quadras{
-      width: 100%;
+        display: none;
     }
 }
+
+
+
